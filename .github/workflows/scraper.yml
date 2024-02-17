@@ -34,5 +34,5 @@ jobs:
           git config user.email "action@github.com"
           git add -A
           timestamp=$(date '+%F %H:%M:%S %Z')
-          git commit -m "Update data ${timestamp}" || exit 0
+          git commit -m "📝 Update data ${timestamp}" || exit 0
           git push
